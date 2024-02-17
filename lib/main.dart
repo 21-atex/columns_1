@@ -32,7 +32,7 @@ class HomePage extends StatelessWidget {
         backgroundColor: const Color.fromARGB(255, 34, 33, 33),
         title: const Center(
           child: Text(
-            "First task 'Columns'",
+            "Columns",
             style: TextStyle(
               fontSize: 30,
               color: Color.fromARGB(255, 253, 253, 253)
@@ -49,7 +49,7 @@ class HomePage extends StatelessWidget {
                 constraints: const BoxConstraints(minHeight: 18, minWidth: 0, maxHeight: 300),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
-                  color: Color.fromARGB(255, 89, 221, 144),
+                  color: const Color.fromARGB(255, 89, 221, 144),
                 ),
                 child: const Center(
                   child: Text(
@@ -68,7 +68,7 @@ class HomePage extends StatelessWidget {
                 constraints: const BoxConstraints(minHeight: 18, minWidth: 0, maxHeight: 300),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
-                  color: Color.fromARGB(255, 80, 201, 130),
+                  color: const Color.fromARGB(255, 80, 201, 130),
                 ),
                 child: const Center(
                   child: Text(
